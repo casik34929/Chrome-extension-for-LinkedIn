@@ -1,0 +1,58 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: 'Prompt', sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#logo {
+  filter: contrast(0.5);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* #stopAutoComment {
+  display: none;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+} */
+svg {
+  margin-right: 10px;
+}
+
+#toggleAutoComment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
